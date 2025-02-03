@@ -36,7 +36,6 @@ Each feature contains 5 modules, with two Android modules and three pure Kotlin 
 You might wonder:
 
 Why are the usecase and domain modules separate? I'm using a BaseDomain interface that's implemented by all models throughout the project. In some cases (like this one), the usecase doesn't depend on domain. When there's no dependency between modules, it makes sense to keep them separate.
-
 ## Feature Module Dependencies
 
 ```mermaid
@@ -52,3 +51,8 @@ graph TD;
     A --> E;
     
 ```
+
+
+![Screenshot from 2025-02-03 19-16-10](https://github.com/user-attachments/assets/40f021f5-f05d-4c45-90cf-7d445d301080)
+![Screenshot from 2025-02-03 19-16-31](https://github.com/user-attachments/assets/6e8cedfe-68ce-4e37-bfb5-29957aeb991f)
+![Screenshot from 2025-02-03 19-16-39](https://github.com/user-attachments/assets/c1dd26bd-84ef-4b0e-a63e-97d61f8535d3)
